@@ -24,3 +24,11 @@ Then it **elaborates** the *any* entity with the name `*_tb`.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+## Demo
+
+https://usafa0-my.sharepoint.com/:v:/g/personal/c26andres_samson_afacademy_af_edu/EcJBtb5Y8q1Btp3Ik6f4GiIBLxbZgNn0yDVhjL3gemPJCw?e=PAomfQ
+
+## Documentation
+
+C3C Marbach helped me with the VHDL part of the lab. He gave me a few tips such as how to add the halfAdder.vhd file to my project.
